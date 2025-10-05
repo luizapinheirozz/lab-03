@@ -1,0 +1,12 @@
+@import "./utils/variables.css";
+@import "./utils/reset.css";
+@import "./utils/typograph.css";
+@import "./utils/components.css";
+
+@import "./blocks/header.css";
+@import "./blocks/home.css";
+@import "./blocks/about-us.css";
+@import "./blocks/projects.css";
+@import "./blocks/testimonials.css";
+@import "./blocks/developers.css";
+@import "./blocks/footer.css";

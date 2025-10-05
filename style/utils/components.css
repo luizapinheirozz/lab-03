@@ -1,0 +1,87 @@
+.container {
+  width: 100%;
+  max-width: 1730px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  border-radius: 100px;
+  padding: 18px 80px 18px 42px;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.btn-primary::after {
+  content: "";
+  width: 48px;
+  height: 48px;
+  background-color: var(--p3-color);
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 50%;
+  background-image: url(../../assets/images/details/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  will-change: transform;
+  transition: transform 0.3s;
+}
+
+.btn-primary--p1 {
+  background-color: var(--p1-color);
+}
+
+.btn-primary--p1:hover {
+  background-color: var(--p3-color);
+  color: var(--p2-color);
+}
+
+.btn-primary--p1:hover::after {
+  transform: rotate(-90deg);
+}
+
+.btn-primary--p2 {
+  background-color: var(--p2-color);
+}
+
+.btn-primary--p2:hover {
+  background-color: var(--p1-color);
+}
+
+.btn-primary--p2:hover::after {
+  transform: rotate(-90deg);
+}
+
+.btn-secondary {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 12px;
+  border-radius: 100px;
+  transition: all 0.3s;
+}
+
+.btn-secondary--p2 {
+  background-color: var(--p2-color);
+  color: var(--p3-color);
+}
+
+.btn-secondary--p3 {
+  background-color: var(--p3-color);
+  color: var(--p2-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--p1-color);
+  color: var(--p3-color);
+}
+
+.heading-number {
+  font-size: 72px;
+  text-decoration: underline;
+  font-weight: 700;
+  margin-right: 20px;
+}

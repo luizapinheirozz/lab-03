@@ -1,0 +1,66 @@
+.heading-01,
+.heading-02,
+.heading-03,
+.heading-04 {
+  color: var(--p3-color);
+  font-family: "Unbounded", sans-serif;
+  font-weight: 700;
+}
+
+.heading-01,
+.heading-02,
+.heading-03 {
+  text-transform: uppercase;
+}
+
+.heading-01 {
+  color: var(--p2-color);
+  font-size: 4.5rem;
+  line-height: 115%;
+}
+
+.heading-02 {
+  font-size: 3rem;
+}
+
+.heading-03 {
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+
+.heading-04 {
+  font-size: 1.25rem;
+  letter-spacing: 1.44px;
+}
+
+.paragraph-01,
+.paragraph-01-bold,
+.paragraph-02,
+.paragraph-02-bold {
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.paragraph-01,
+.paragraph-01-bold {
+  font-size: 1.5rem;
+  letter-spacing: 1.44px;
+}
+
+.paragraph-01,
+.paragraph-02 {
+  font-weight: 400;
+}
+
+.paragraph-01-bold {
+  font-weight: 700;
+}
+
+.paragraph-02,
+.paragraph-02-bold {
+  font-size: 1.125rem;
+  letter-spacing: 1.08px;
+}
+
+.paragraph-02-bold {
+  font-weight: 700;
+}

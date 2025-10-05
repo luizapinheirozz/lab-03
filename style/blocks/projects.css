@@ -1,0 +1,44 @@
+.projects {
+  height: 100vh;
+  background-image: url(../../assets/images/background/projects-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.projects__container {
+  height: 100%;
+  position: relative;
+}
+
+.projects__title {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.projects__cards {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects__card {
+  display: flex;
+  gap: 60px;
+}
+
+.projects__card:nth-child(2) {
+  margin-left: 200px;
+}
+
+.projects__subtitle {
+  margin-bottom: 16px;
+}
+
+.projects__cta {
+  position: absolute;
+  right: 15px;
+  bottom: -25px;
+}

@@ -1,0 +1,69 @@
+.main {
+  background-image: url(../../assets/images/background/main-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main__container {
+  position: relative;
+  height: 100vh;
+}
+
+.main__container::after {
+  content: "Código rosa";
+  font-size: 64px;
+  font-family: "Unbounded", sans-serif;
+  color: var(--p2-color);
+  font-weight: 700;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+  position: absolute;
+  top: 80px;
+}
+
+.main__header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+}
+
+.main__highlight {
+  color: var(--p1-color);
+  font-weight: 800;
+}
+
+.main__impact {
+  color: var(--p1-color);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-left: 140px;
+}
+
+.main__title {
+  max-width: 440px;
+  text-align: center;
+}
+
+.main__subtitle {
+  margin-top: 8px;
+}
+
+.main__cta {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  right: 15px;
+  bottom: 120px;
+}
+
+.main__cta-text {
+  text-align: center;
+}
+
+.main__cta-detail {
+  width: 2px;
+  height: 60px;
+  background-color: var(--p3-color);
+}

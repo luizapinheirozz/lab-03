@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+body {
+  color: var(--p3-color);
+}
+
+section,
+footer {
+  height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}

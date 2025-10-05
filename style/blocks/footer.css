@@ -1,0 +1,54 @@
+.footer {
+  background-color: var(--p4-color);
+}
+
+.footer__container {
+  padding-top: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  position: relative;
+}
+
+.footer__container::after {
+  content: "Código rosa";
+  font-size: 64px;
+  font-family: "Unbounded", sans-serif;
+  color: var(--p2-color);
+  font-weight: 700;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.footer__left {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.footer__title {
+  font-size: 64px;
+  font-family: "Unbounded", sans-serif;
+}
+
+.footer__cta {
+  display: flex;
+  gap: 16px;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+.footer__copy {
+  text-align: center;
+  margin-top: 200px;
+}
