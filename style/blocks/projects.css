@@ -42,3 +42,37 @@
   right: 15px;
   bottom: -25px;
 }
+
+@media (max-width: 1200px) {
+  .projects__card {
+    gap: 24px;
+  }
+  .projects__icon {
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects__cards {
+    padding-top: 48px;
+    gap: 40px;
+  }
+
+  .projects__card:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .projects__card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .projects__icon {
+    max-width: 40px;
+  }
+
+  .projects__cta {
+    display: none;
+  }
+}

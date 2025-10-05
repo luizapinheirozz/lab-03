@@ -109,5 +109,6 @@
 
   .main__title {
     align-self: center;
+    max-width: 80%;
   }
 }
