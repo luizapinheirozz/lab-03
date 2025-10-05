@@ -88,6 +88,12 @@
 
 @media (max-width: 991px) {
   .heading-number {
-    font-size: 48px;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .heading-number {
+    font-size: 2.25rem;
   }
 }

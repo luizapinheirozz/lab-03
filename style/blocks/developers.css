@@ -39,6 +39,7 @@
 @media (max-width: 900px) {
   .developers {
     height: auto;
+    padding-bottom: 32px;
   }
 
   .developers__cards {
