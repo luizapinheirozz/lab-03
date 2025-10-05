@@ -63,3 +63,50 @@
 .about-us__detail--02 {
   right: 15px;
 }
+
+@media (max-width: 991px) {
+  .about-us__title {
+    padding-block: 120px 40px;
+    text-align: center;
+  }
+
+  .about-us__description {
+    max-width: 90%;
+    margin-bottom: 56px;
+  }
+
+  .about-us__top,
+  .about-us__bottom {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .about-us__top,
+  .about-us__bottom {
+    margin: 0;
+  }
+
+  .about-us__card {
+    height: 80px;
+  }
+
+  .about-us__top {
+    margin-bottom: 24px;
+  }
+
+  .about-us__bottom {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 680px) {
+  .about-us__detail--02 {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us__detail {
+    display: none;
+  }
+}
