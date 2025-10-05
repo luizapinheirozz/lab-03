@@ -20,7 +20,13 @@
   const snapThreshold = 0.2;
 
   function updateSlideWidth() {
-    slidesPerView = window.innerWidth >= 1200 ? 3 : 1;
+    if (window.innerWidth >= 1200) {
+      slidesPerView = 3;
+    } else if (window.innerWidth >= 768) {
+      slidesPerView = 2;
+    } else {
+      slidesPerView = 1;
+    }
     slideWidth = slider.clientWidth / slidesPerView;
   }
 
