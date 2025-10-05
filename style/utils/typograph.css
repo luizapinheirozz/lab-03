@@ -64,3 +64,10 @@
 .paragraph-02-bold {
   font-weight: 700;
 }
+
+@media (max-width: 1660px) {
+  .heading-01 {
+    color: var(--p3-color);
+    font-size: 64px;
+  }
+}

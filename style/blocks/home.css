@@ -67,3 +67,47 @@
   height: 60px;
   background-color: var(--p3-color);
 }
+
+@media (max-width: 1660px) {
+  .main__container::after {
+    display: none;
+  }
+
+  .main__header {
+    flex-direction: column;
+    position: absolute;
+    bottom: 120px;
+  }
+
+  .main__impact {
+    display: none;
+  }
+
+  .main__highlight {
+    color: var(--p3-color);
+  }
+
+  .main__cta-text,
+  .main__cta-detail {
+    display: none;
+  }
+}
+
+@media (max-width: 798px) {
+  .main {
+    background-position-x: -440px;
+  }
+
+  .main__cta {
+    display: none;
+  }
+
+  .main__header {
+    right: 0;
+    left: 0;
+  }
+
+  .main__title {
+    align-self: center;
+  }
+}
