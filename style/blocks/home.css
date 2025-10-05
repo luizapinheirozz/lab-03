@@ -91,6 +91,10 @@
   .main__cta-detail {
     display: none;
   }
+
+  .main__title {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 798px) {

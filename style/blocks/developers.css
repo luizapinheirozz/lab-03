@@ -21,8 +21,8 @@
 }
 
 .developers__card {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 84px 1fr;
   gap: 20px;
 }
 
@@ -34,4 +34,19 @@
   position: absolute;
 
   bottom: 100px;
+}
+
+@media (max-width: 900px) {
+  .developers {
+    height: auto;
+  }
+
+  .developers__cards {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .developers__cta {
+    display: none;
+  }
 }

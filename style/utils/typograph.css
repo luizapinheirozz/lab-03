@@ -21,6 +21,7 @@
 
 .heading-02 {
   font-size: 3rem;
+  word-break: break-all;
 }
 
 .heading-03 {
@@ -88,6 +89,10 @@
   .paragraph-01-bold {
     font-size: 1.125rem;
   }
+
+  .paragraph-02 {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 798px) {
@@ -97,5 +102,11 @@
 
   .paragraph-01 {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .heading-02 {
+    font-size: 1.75rem;
   }
 }
